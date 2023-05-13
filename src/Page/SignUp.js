@@ -18,6 +18,8 @@ const SignUp = () => {
         googleSignIn()
             .then(result => {
                 const user = result.user;
+                console.log(user);
+                toast.success('User Create Successfully')
                 navigate('/')
             })
             .catch(error => {

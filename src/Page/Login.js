@@ -2,6 +2,7 @@ import React, { useContext, useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../Contexts/AuthProvider';
+import toast from 'react-hot-toast';
 
 const Login = () => {
 
@@ -18,6 +19,7 @@ const Login = () => {
             .then(result => {
                 const user = result.user;
                 console.log(user);
+                toast.success('Login Successfully')
                 reset()
                 navigate(from, { replace: true })
             })
@@ -36,6 +38,7 @@ const Login = () => {
             .then(result => {
                 const user = result.user;
                 console.log(user);
+                toast.success('Login Successfully')
                 reset()
                 navigate(from, { replace: true })
             })
@@ -76,7 +79,7 @@ const Login = () => {
                     </div>
                 </form>
 
-                <p className='mt-1 text-white'>New to Dolpin<Link to='/register' className='text-cyan-500 ml-2'>Create New account</Link></p>
+                <p className='mt-1 text-white'>New to here<Link to='/register' className='text-cyan-500 ml-2'>Create New account</Link></p>
                 <div className="divider my-4 text-cyan-400">OR</div>
                 <button onClick={handleGoogleSignIn} className='btn  btn-primary w-full'>CONTINUE WITH GOOGLE</button>
             </div>

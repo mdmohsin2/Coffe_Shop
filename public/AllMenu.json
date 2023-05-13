@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "Espresso",
+    "picture": "https://i.ibb.co/52BCFKH/photo-1495474472287-4d71bcdd2085.jpg",
+    "Price": 500,
+    "rating": 5,
+    "description": "Espresso is a concentrated coffee drink that originated in Italy and is now popular all over the world. It is made by forcing hot water through finely ground coffee beans at high pressure, resulting in a small, strong shot of coffee with a crema (a creamy, golden-brown layer on top)"
+  },
+  {
+    "id": 2,
+    "title": "Cappuccino",
+    "picture": "https://i.ibb.co/TT0nH0t/2015122910.jpg",
+    "Price": 750,
+    "rating": 5,
+    "description": "Cappuccino is a popular coffee drink that originated in Italy and is now enjoyed all over the world. It is made by combining equal parts espresso, steamed milk, and milk foam, resulting in a creamy and delicious coffee beverage. Here are some details about cappuccino coffee"
+  },
+  {
+    "id": 3,
+    "title": "Americano",
+    "picture": "https://i.ibb.co/nkvjkRs/pexels-photo-362572.jpg",
+    "Price": 690,
+    "rating": 5,
+    "description": "Americano is a popular coffee drink that originated during World War II, when American soldiers stationed in Italy would add hot water to their espresso shots to make them last longer. Here are some details about Americano coffee"
+  },
+  {
+    "id": 4,
+    "title": "Macchiato",
+    "picture": "https://i.ibb.co/0mk8kMW/pexels-photo-2836945.jpg",
+    "Price": 300,
+    "rating": 5,
+    "description": "Macchiato is an Italian word that means stained or marked, and it is a popular coffee drink that is made by adding a small amount of milk to a shot of espresso. Here are some details about macchiato coffee"
+  },
+  {
+    "id": 5,
+    "title": "Irish Coffee",
+    "picture": "https://i.ibb.co/syBrX4m/pexels-photo-982612.jpg",
+    "Price": 800,
+    "rating": 5,
+    "description": "Irish coffee is a classic cocktail that combines hot coffee, Irish whiskey, sugar, and whipped cream. Here are some details about Irish coffee"
+  },
+  {
+    "id": 6,
+    "title": "Vienna Coffee",
+    "picture": "https://i.ibb.co/sygwYzW/photo-1575994611012-6a864f75cd77.jpg",
+    "Price": 499,
+    "rating": 5,
+    "description": "Vienna coffee is a traditional coffee drink that originated in Austria and is named after the country's capital city, Vienna. Here are some details about Vienna coffee"
+  }
+]
