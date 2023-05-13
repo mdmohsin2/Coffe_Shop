@@ -5,7 +5,7 @@ const Menu = () => {
     const [menuItem, setMenuItem] = useState([])
 
     useEffect(() => {
-        fetch(`AllMenu.json`)
+        fetch(`https://dolpin-server.vercel.app/items`)
             .then(res => res.json())
             .then(data => setMenuItem(data))
     }, [])

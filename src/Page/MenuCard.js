@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import { AuthContext } from '../Contexts/AuthProvider';
 
 const MenuCard = ({ item }) => {
-    const { id, title, picture, Price, description } = item
+    const { title, picture, Price, description } = item
     const { loading } = useContext(AuthContext)
     if (loading) {
         return <button type="button" class="bg-indigo-500 ..." disabled>
